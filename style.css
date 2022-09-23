@@ -25,7 +25,10 @@
   }
 
   .award-container{
+    
     display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .award-container img{
@@ -45,7 +48,33 @@
     display: flex;
   }
   .card{
-    height: 300px;
-    width: 200px;
+    margin: 20px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+  }
+
+  .card img{
+    width: 429px;
+    height: 275px;
+  }
+
+  .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-container img{
+    width: 30px;
+    margin: 0 20px;
+  }
+
+  .btn-container{
+    background-color: orange;
+  }
+  .btn-container h2{
+    font-family: 'Sacramento', cursive;
   }
