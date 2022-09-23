@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-image{
+    font-family: 'Sacramento', cursive;
+    background-image: url('assets/hero.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+  }
+
+  .award-container{
+    display: flex;
+  }
+
+  .award-container img{
+    width: 200px;
+  }
+
+  .feature-container{
+    background-color: orange;
+    display: flex;
+  }
+
+  .feature-container img{
+    width: 50%;
+  }
+
+  .card-container{
+    display: flex;
+  }
+  .card{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+  }
